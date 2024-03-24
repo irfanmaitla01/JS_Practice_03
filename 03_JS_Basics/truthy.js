@@ -1,5 +1,10 @@
 // ++++++++++++ Truthy & Falsy +++++++++++++++++++
 
+// Falsy Values
+//               false  ,  0  ,  -0  ,  BigInt 0n  ,  ""  ,  null  ,  undefined  ,  NaN
+// other all are Truthy values like
+//               "0"  ,  'false'  ,  " "  ,  []  ,  {}  ,  function(){}  ,  
+
 const user1 = "B@irfan.ai"
 if (user1){                                // we not use any comparison, it assume that it have website on the basis of "B@irfan.ai"
     console.log("yes, there is a website");
